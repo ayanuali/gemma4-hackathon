@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+/tmp/
+*.log
+
+# Model files (too large for git)
+*.gguf
+*.safetensors
+*.bin
+
+# Temp images
+demo_*.png
+test_*.png
